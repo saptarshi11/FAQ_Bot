@@ -11,7 +11,7 @@ services:
     depends_on:
       - db
     environment:
-      - GOOGLE_APPLICATION_CREDENTIALS= "fbecbaf139f465c6fc25719112d96f42de41034e"
+      - GOOGLE_APPLICATION_CREDENTIALS= "-----" # Path to your service account key file
 
   db:
     image: postgres
